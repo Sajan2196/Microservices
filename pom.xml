@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.4</version> <!-- Ensure compatibility with Spring Cloud 2024.0.1 -->
+		<version>3.4.4</version> <!-- Ensure consistency -->
 		<relativePath/>
 	</parent>
 
@@ -19,7 +19,7 @@
 
 	<properties>
 		<java.version>21</java.version>
-		<spring-cloud.version>2024.0.1</spring-cloud.version> <!-- Ensure consistency -->
+		<spring-cloud.version>2024.0.1</spring-cloud.version>
 	</properties>
 
 	<dependencies>
@@ -28,13 +28,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.hibernate.validator</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>8.0.1.Final</version>
-		</dependency>
 
-		<!-- Spring Boot Test (Optional) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
